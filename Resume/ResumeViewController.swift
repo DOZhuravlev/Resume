@@ -121,7 +121,7 @@ final class ResumeViewController: UIViewController {
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.backgroundColor = .green
+        collectionView.backgroundColor = .white
         collectionView.register(SkillCell.self, forCellWithReuseIdentifier: "SkillCell")
         collectionView.register(AddSkillCell.self, forCellWithReuseIdentifier: "AddSkillCell")
         collectionView.translatesAutoresizingMaskIntoConstraints = false
