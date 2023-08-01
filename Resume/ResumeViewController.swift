@@ -50,7 +50,7 @@ final class ResumeViewController: UIViewController {
         let imageView = UIImageView()
         imageView.image = UIImage(named: "photo")
         imageView.contentMode = .scaleAspectFill
-        imageView.layer.cornerRadius = imageView.frame.width / 2
+        imageView.layer.cornerRadius = 60
         imageView.clipsToBounds = true
         imageView.translatesAutoresizingMaskIntoConstraints = false
         return imageView
